@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisualCraft Studio | Professional Logo Design & Video Editing</title>
+    <meta name="description" content="Professional logo design and video editing services. Transform your brand with custom graphics and visual storytelling.">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="VisualCraft Studio | Professional Logo Design & Video Editing">
+    <meta property="og:description" content="Transform your brand with custom logo design and professional video editing services.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://visualcraftstudio.com">
+    <meta property="og:image" content="https://visualcraftstudio.com/images/og-main.jpg">
+    <meta property="og:site_name" content="VisualCraft Studio">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="VisualCraft Studio | Professional Logo Design & Video Editing">
+    <meta name="twitter:description" content="Transform your brand with custom logo design and professional video editing services.">
+    <meta name="twitter:image" content="https://visualcraftstudio.com/images/og-main.jpg">
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-color: #3a36e0;
+            --secondary-color: #ff6b6b;
+            --dark-color: #1a1a2e;
+            --light-color: #f8f9fa;
+            --gray-color: #6c757d;
+            --transition: all 0.3s ease;
+            --shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            --border-radius: 8px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: var(--light-color);
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+        }
+
+        h2 {
+            font-size: 2.2rem;
+            color: var(--dark-color);
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 28px;
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            transition: var(--transition);
+            font-size: 1rem;
+        }
+
+        .btn:hover {
+            background-color: #2a26c9;
+            transform: translateY(-3px);
+            box-shadow: var(--shadow);
+        }
+
+        .btn-secondary {
+            background-color: var(--secondary-color);
+        }
+
+        .btn-secondary:hover {
+            background-color: #ff5252;
+        }
+
+        section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-title h2 {
+            position: relative;
+            display: inline-block;
+            padding-bottom: 15px;
+        }
+
+        .section-title h2::after {
+            content: '';
+            position: absolute;
+            width: 70px;
+            height: 4px;
+            background-color: var(--primary-color);
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* Header & Navigation */
+        header {
+            background-color: white;
+            box-shadow: var(--shadow);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .logo {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .logo span {
+            color: var(--secondary-color);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-links li {
+            margin-left: 30px;
+        }
+
+        .nav-links a {
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+
+        .hamburger {
+            display: none;
+            cursor: pointer;
+            font-size: 1.5rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding-top: 150px;
+            background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMTAwMCAxMDAwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNmOGY5ZmEiLz48cGF0aCBkPSJNLTUwIDUwMEwxMDAwIDBWMTAwMEgtNTBWNTBaIiBmaWxsPSIjM2EzNmUwIiBmaWxsLW9wYWNpdHk9IjAuMDMiLz48cGF0aCBkPSJNMCAtNTBIMTAwMFYxMDAwTDAgMTAwMC41Vi01MFoiIGZpbGw9IiNmZjZiNmIiIGZpbGwtb3BhY2l0eT0iMC4wMyIvPjwvc3ZnPg==');
+            background-size: cover;
+        }
+
+        .hero-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .hero-text {
+            flex: 1;
+            min-width: 300px;
+            padding-right: 30px;
+        }
+
+        .hero-text h1 {
+            margin-bottom: 20px;
+            color: var(--dark-color);
+        }
+
+        .hero-text p {
+            font-size: 1.1rem;
+            color: var(--gray-color);
+            margin-bottom: 30px;
+        }
+
+        .hero-image {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+        }
+
+        /* Services Section */
+        .services {
+            background-color: white;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .service-card {
+            background-color: white;
+            padding: 40px 30px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            text-align: center;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .service-icon {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+
+        /* Portfolio Section */
+        .portfolio {
+            background-color: #f8f9fa;
+        }
+
+        .portfolio-filter {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 8px 20px;
+            margin: 5px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: var(--transition);
+            font-weight: 500;
+        }
+
+        .filter-btn.active, .filter-btn:hover {
+            background-color: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .portfolio-item {
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            background-color: white;
+            transition: var(--transition);
+            position: relative;
+            cursor: pointer;
+        }
+
+        .portfolio-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .portfolio-img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .portfolio-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(58, 54, 224, 0.9);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: var(--transition);
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .portfolio-item:hover .portfolio-overlay {
+            opacity: 1;
+        }
+
+        .portfolio-overlay h3 {
+            margin-bottom: 10px;
+        }
+
+        /* About Section */
+        .about {
+            background-color: white;
+        }
+
+        .about-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .about-text {
+            flex: 1;
+            min-width: 300px;
+            padding-right: 40px;
+        }
+
+        .about-text p {
+            margin-bottom: 20px;
+        }
+
+        .about-image {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+        }
+
+        .about-image img {
+            max-width: 100%;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+        }
+
+        /* Order Section */
+        .order {
+            background-color: var(--dark-color);
+            color: white;
+            text-align: center;
+        }
+
+        .order h2 {
+            color: white;
+        }
+
+        .order p {
+            max-width: 700px;
+            margin: 0 auto 40px;
+        }
+
+        .order-options {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .order-option {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 25px;
+            border-radius: var(--border-radius);
+            width: 280px;
+            transition: var(--transition);
+        }
+
+        .order-option:hover {
+            background-color: rgba(255, 255, 255, 0.15);
+            transform: translateY(-5px);
+        }
+
+        .order-option h3 {
+            margin-bottom: 15px;
+            color: var(--secondary-color);
+        }
+
+        .whatsapp-btn {
+            background-color: #25D366;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 30px;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: var(--transition);
+            margin-top: 10px;
+        }
+
+        .whatsapp-btn:hover {
+            background-color: #128C7E;
+            transform: translateY(-3px);
+            box-shadow: var(--shadow);
+        }
+
+        .whatsapp-btn i {
+            margin-right: 10px;
+            font-size: 1.3rem;
+        }
+
+        /* OG Preview Modal */
+        .og-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 2000;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .og-modal-content {
+            background-color: white;
+            width: 90%;
+            max-width: 500px;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .og-modal-header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .og-modal-header h3 {
+            margin: 0;
+        }
+
+        .close-modal {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        .og-preview {
+            padding: 20px;
+        }
+
+        .og-image-preview {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .og-details h4 {
+            margin: 10px 0 5px;
+            color: var(--dark-color);
+        }
+
+        .og-details p {
+            color: var(--gray-color);
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+        }
+
+        .og-url {
+            color: var(--primary-color);
+            font-size: 0.8rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--dark-color);
+            color: white;
+            padding: 60px 0 30px;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        .footer-column {
+            flex: 1;
+            min-width: 250px;
+            margin-bottom: 30px;
+            padding-right: 20px;
+        }
+
+        .footer-column h3 {
+            color: var(--secondary-color);
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links a:hover {
+            color: var(--secondary-color);
+        }
+
+        .social-links {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            margin-right: 10px;
+            transition: var(--transition);
+        }
+
+        .social-links a:hover {
+            background-color: var(--primary-color);
+            transform: translateY(-3px);
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 992px) {
+            h1 {
+                font-size: 2.3rem;
+            }
+            
+            h2 {
+                font-size: 1.8rem;
+            }
+            
+            .hero-content, .about-content {
+                flex-direction: column;
+            }
+            
+            .hero-text, .about-text {
+                padding-right: 0;
+                margin-bottom: 40px;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                position: fixed;
+                top: 80px;
+                left: 0;
+                background-color: white;
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+                padding: 20px 0;
+                box-shadow: var(--shadow);
+                transform: translateY(-100%);
+                opacity: 0;
+                transition: var(--transition);
+                z-index: 999;
+            }
+            
+            .nav-links.active {
+                transform: translateY(0);
+                opacity: 1;
+            }
+            
+            .nav-links li {
+                margin: 15px 0;
+            }
+            
+            .hamburger {
+                display: block;
+            }
+            
+            section {
+                padding: 60px 0;
+            }
+            
+            .hero {
+                padding-top: 130px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .btn {
+                padding: 10px 22px;
+            }
+            
+            .section-title h2 {
+                font-size: 1.8rem;
+            }
+            
+            .service-card, .order-option {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Visual<span>Craft</span></a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#order" class="btn">Order Now</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Transform Your Brand With Professional Logo Design & Video Editing</h1>
+                    <p>We create compelling visual identities and engaging video content that captures your brand's essence and communicates your message effectively to your target audience.</p>
+                    <a href="#order" class="btn">Start Your Project</a>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Brand Design Workstation">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>Professional creative services tailored to your brand needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Logo Design</h3>
+                    <p>Custom logo design that represents your brand identity, values, and vision. We create memorable logos that stand out.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-play-circle"></i>
+                    </div>
+                    <h3>Video Editing</h3>
+                    <p>Professional video editing services for commercials, social media content, corporate videos, and more.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-object-group"></i>
+                    </div>
+                    <h3>Brand Identity</h3>
+                    <p>Complete brand identity packages including color palette, typography, and brand guidelines.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Portfolio</h2>
+                <p>Explore our recent work in logo design and video editing</p>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="logo">Logos</button>
+                <button class="filter-btn" data-filter="video">Videos</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Portfolio items will be added dynamically by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Us</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>At VisualCraft Studio, we're passionate about helping businesses establish a strong visual presence through professional logo design and compelling video content.</p>
+                    <p>With years of experience in graphic design and video production, we understand what it takes to create visuals that not only look great but also communicate your brand message effectively.</p>
+                    <p>Our approach combines creativity with strategy, ensuring that every design and video we create aligns with your business goals and resonates with your target audience.</p>
+                    <p>Whether you're a startup looking for your first logo or an established business needing professional video content, we're here to bring your vision to life.</p>
+                    <a href="#order" class="btn btn-secondary">Get in Touch</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Creative Studio">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section class="order" id="order">
+        <div class="container">
+            <div class="section-title">
+                <h2>Order Your Design</h2>
+                <p>Get in touch via WhatsApp to discuss your project requirements and get a quote</p>
+            </div>
+            <div class="order-options">
+                <div class="order-option">
+                    <h3>Logo Design</h3>
+                    <p>Custom logo creation with 3 initial concepts and 3 revision rounds.</p>
+                    <button class="btn select-image" data-service="Logo Design">Select Image & Order</button>
+                </div>
+                <div class="order-option">
+                    <h3>Video Editing</h3>
+                    <p>Professional video editing for commercials, social media, or corporate videos.</p>
+                    <button class="btn select-image" data-service="Video Editing">Select Image & Order</button>
+                </div>
+                <div class="order-option">
+                    <h3>Brand Identity Package</h3>
+                    <p>Complete branding including logo, color palette, typography, and guidelines.</p>
+                    <button class="btn select-image" data-service="Brand Identity Package">Select Image & Order</button>
+                </div>
+            </div>
+            <p>or</p>
+            <a href="https://wa.me/254779948427?text=Hi%20VisualCraft%20Studio!%20I'm%20interested%20in%20your%20design%20services." class="whatsapp-btn" target="_blank">
+                <i class="fab fa-whatsapp"></i> WhatsApp Direct: 0779 948 427
+            </a>
+        </div>
+    </section>
+
+    <!-- OG Preview Modal -->
+    <div class="og-modal" id="ogModal">
+        <div class="og-modal-content">
+            <div class="og-modal-header">
+                <h3>Live Preview</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="og-preview">
+                <img id="ogImagePreview" class="og-image-preview" src="" alt="Selected Image">
+                <div class="og-details">
+                    <h4 id="ogTitle">VisualCraft Studio | Professional Logo Design & Video Editing</h4>
+                    <p id="ogDescription">Transform your brand with custom logo design and professional video editing services.</p>
+                    <p class="og-url">visualcraftstudio.com</p>
+                </div>
+                <div class="modal-buttons">
+                    <button class="btn" id="sendWhatsAppBtn">
+                        <i class="fab fa-whatsapp"></i> Send via WhatsApp
+                    </button>
+                    <button class="btn btn-secondary close-modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>VisualCraft Studio</h3>
+                    <p>Professional logo design and video editing services to elevate your brand's visual identity.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#order">Order Now</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone-alt"></i> 0779 948 427</li>
+                        <li><i class="fas fa-envelope"></i> info@visualcraftstudio.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 VisualCraft Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Navigation Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.querySelector('i').classList.toggle('fa-bars');
+            hamburger.querySelector('i').classList.toggle('fa-times');
+        });
+        
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                hamburger.querySelector('i').classList.add('fa-bars');
+                hamburger.querySelector('i').classList.remove('fa-times');
+            });
+        });
+        
+        // Portfolio Filtering
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const portfolioGrid = document.querySelector('.portfolio-grid');
+        
+        // Portfolio data
+        const portfolioItems = [
+            {
+                id: 1,
+                category: 'logo',
+                title: 'EcoGreen Logo',
+                description: 'Logo design for an eco-friendly products company',
+                image: 'https://images.unsplash.com/photo-1634942537034-2531766767d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80'
+            },
+            {
+                id: 2,
+                category: 'video',
+                title: 'Tech Startup Promo',
+                description: 'Promotional video for a technology startup',
+                image: 'https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80'
+            },
+            {
+                id: 3,
+                category: 'branding',
+                title: 'Cafe Brand Identity',
+                description: 'Complete branding for a specialty coffee shop',
+                image: 'https://images.unsplash.com/photo-1567446537711-4302c76e0b8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80'
+            },
+            {
+                id: 4,
+                category: 'logo',
+                title: 'Fitness App Logo',
+                description: 'Modern logo for a fitness tracking application',
+                image: 'https://images.unsplash.com/photo-1634942536824-fd5bdf48e8e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80'
+            },
+            {
+                id: 5,
+                category: 'video',
+                title: 'Corporate Training',
+                description: 'Video series for corporate training program',
+                image: 'https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80'
+            },
+            {
+                id: 6,
+                category: 'branding',
+                title: 'Fashion Brand Package',
+                description: 'Brand identity for a contemporary fashion label',
+                image: 'https://images.unsplash.com/photo-1634942537034-2531766767d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80'
+            }
+        ];
+        
+        // Function to render portfolio items
+        function renderPortfolio(items) {
+            portfolioGrid.innerHTML = '';
+            items.forEach(item => {
+                const portfolioItem = document.createElement('div');
+                portfolioItem.className = 'portfolio-item';
+                portfolioItem.setAttribute('data-category', item.category);
+                portfolioItem.innerHTML = `
+                    <img src="${item.image}" alt="${item.title}" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>${item.title}</h3>
+                        <p>${item.description}</p>
+                        <button class="btn view-og-btn" data-image="${item.image}" data-title="${item.title}" data-description="${item.description}">Preview & Order</button>
+                    </div>
+                `;
+                portfolioGrid.appendChild(portfolioItem);
+            });
+            
+            // Add event listeners to the new "Preview & Order" buttons
+            document.querySelectorAll('.view-og-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const imageUrl = this.getAttribute('data-image');
+                    const title = this.getAttribute('data-title');
+                    const description = this.getAttribute('data-description');
+                    openOGModal(imageUrl, title, description, 'Portfolio Item');
+                });
+            });
+        }
+        
+        // Initial render
+        renderPortfolio(portfolioItems);
+        
+        // Filter functionality
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Update active button
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                
+                const filter = button.getAttribute('data-filter');
+                
+                if (filter === 'all') {
+                    renderPortfolio(portfolioItems);
+                } else {
+                    const filteredItems = portfolioItems.filter(item => item.category === filter);
+                    renderPortfolio(filteredItems);
+                }
+            });
+        });
+        
+        // OG Modal functionality
+        const ogModal = document.getElementById('ogModal');
+        const closeModalBtn = document.querySelectorAll('.close-modal');
+        const ogImagePreview = document.getElementById('ogImagePreview');
+        const ogTitle = document.getElementById('ogTitle');
+        const ogDescription = document.getElementById('ogDescription');
+        const sendWhatsAppBtn = document.getElementById('sendWhatsAppBtn');
+        let selectedService = '';
+        
+        // Open OG modal when "Select Image & Order" button is clicked
+        document.querySelectorAll('.select-image').forEach(button => {
+            button.addEventListener('click', function() {
+                selectedService = this.getAttribute('data-service');
+                openOGModal(
+                    'https://images.unsplash.com/photo-1634942537034-2531766767d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80',
+                    `VisualCraft Studio - ${selectedService}`,
+                    `I'm interested in your ${selectedService} service. Can we discuss my project?`,
+                    selectedService
+                );
+            });
+        });
+        
+        function openOGModal(imageUrl, title, description, service) {
+            selectedService = service;
+            ogImagePreview.src = imageUrl;
+            ogTitle.textContent = title;
+            ogDescription.textContent = description;
+            ogModal.style.display = 'flex';
+        }
+        
+        // Close modal
+        closeModalBtn.forEach(btn => {
+            btn.addEventListener('click', () => {
+                ogModal.style.display = 'none';
+            });
+        });
+        
+        // Close modal when clicking outside
+        window.addEventListener('click', (e) => {
+            if (e.target === ogModal) {
+                ogModal.style.display = 'none';
+            }
+        });
+        
+        // Send via WhatsApp functionality
+        sendWhatsAppBtn.addEventListener('click', () => {
+            const imageUrl = ogImagePreview.src;
+            const title = ogTitle.textContent;
+            const description = ogDescription.textContent;
+            
+            // WhatsApp message with selected image and service details
+            const message = `Hi VisualCraft Studio!%0A%0AI'm interested in: *${selectedService}*%0A%0AProject Details:%0A${description}%0A%0AReference Image: ${imageUrl}%0A%0APlease let me know the next steps.`;
+            const whatsappUrl = `https://wa.me/255779948427?text=${message}`;
+            
+            // Open WhatsApp in a new tab
+            window.open(whatsappUrl, '_blank');
+            
+            // Close the modal
+            ogModal.style.display = 'none';
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
